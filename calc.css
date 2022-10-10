@@ -13,16 +13,16 @@ h1 {
 #no,
 #no1 {
   border: none;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid green;
   /* width:fit-content; */
-  max-width: 3.6vw;
+  max-width: 3.9vw;
   margin-right: 1.46vw;
   /* margin-top:100px; */
 }
 * {
   background: black;
-  color: red;
-  font-size: 50px;
+  color: purple;
+  font-size: 47px;
 }
 button {
   margin-right: 2.2vw;
