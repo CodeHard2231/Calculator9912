@@ -1,0 +1,32 @@
+h1 {
+  font-size: 7.7vh;
+  text-decoration: underline;
+}
+.container,
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6.1vh;
+  margin-top: 6.1vh;
+}
+#no,
+#no1 {
+  border: none;
+  border-bottom: 2px solid red;
+  /* width:fit-content; */
+  max-width: 3.6vw;
+  margin-right: 1.46vw;
+  /* margin-top:100px; */
+}
+* {
+  background: black;
+  color: red;
+  font-size: 50px;
+}
+button {
+  margin-right: 2.2vw;
+}
+.btn p {
+  border-bottom: 2px solid red;
+}
