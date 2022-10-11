@@ -10,15 +10,26 @@ h1 {
   margin-bottom: 6.1vh;
   margin-top: 6.1vh;
 }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
 #no,
 #no1 {
   border: none;
   border-bottom: 2px solid green;
   /* width:fit-content; */
-  max-width: 3.9vw;
+  max-width: 6vw;
   margin-right: 1.46vw;
   /* margin-top:100px; */
+  scroll-behavior: none;
 }
+
+
 * {
   background: black;
   color: purple;
