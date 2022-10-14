@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en" dir="ltr"> 
 <head>
   <meta charset="utf-8" />
   <title></title>
@@ -29,3 +28,34 @@
 <script src="calc.js" charset="utf-8"></script>
 
 </html>
+=======
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <h1 class="container">Calculator</h1>
+    <div class="container">
+      <input id="no" type="number" ondrop="return false;" onpaste="return false;" />
+      <input id="no1" type="number" ondrop="return false;" onpaste="return false;"  />
+    </div>
+    <div class="btn">
+      <button id="add" onclick="add()">Add</button>
+      <button id="sub" onclick="sub()">Substract</button>
+      <button id="divi" onclick="divi()">Divide</button>
+    </div>
+    <div class="btn">
+      <button id="multi" onclick="multi()">Multiply</button>
+    </div>
+    <div class="btn">
+      <p>Result:</p>
+      <p id="disp"></p>
+    </div>
+  </body>
+  <script src="calc.js" charset="utf-8"></script>
+</html> 
