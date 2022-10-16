@@ -21,7 +21,7 @@ input[type=number]::-webkit-outer-spin-button {
 #no,
 #no1 {
   border: none;
-  border-bottom: 2.2px solid red;
+  border-bottom: 2px solid blue;
   /* width:fit-content; */
   max-width: 5.9vw;
   margin-right: 1.46vw;
@@ -47,7 +47,7 @@ button {
   align-items: center;
   background-color: #ffe7e7;
   background-position: 0 0;
-  border: 1px solid #fee0e0;
+  border: 2px solid #fee0e0;
   border-radius: 11px;
   box-sizing: border-box;
   color: #d33a2c;
@@ -90,7 +90,7 @@ button {
 .button-45:active:hover,
 .button-45:focus:hover,
 .button-45:focus {
-  background-color: #d33a2c;
+  background-color: #F08080;
   box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
   color: #ffffff;
 }
