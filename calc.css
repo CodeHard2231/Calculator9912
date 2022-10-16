@@ -21,9 +21,9 @@ input[type=number]::-webkit-outer-spin-button {
 #no,
 #no1 {
   border: none;
-  border-bottom: 2.2px solid yellow;
+  border-bottom: 2.2px solid red;
   /* width:fit-content; */
-  max-width: 6vw;
+  max-width: 5.9vw;
   margin-right: 1.46vw;
   /* margin-top:100px; */
   scroll-behavior: none;
@@ -39,7 +39,7 @@ button {
   margin-right: 2.2vw;
 }
 .btn p {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid blue;
 }
 
 /* Button */
