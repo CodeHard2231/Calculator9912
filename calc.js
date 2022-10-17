@@ -27,3 +27,4 @@ function multi() {
   sum = nbr1 * nbr2;
   document.getElementById("disp").textContent = sum;
 }
+console.log("js done")
