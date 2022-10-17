@@ -1,5 +1,5 @@
 h1 {
-  font-size: 7.7vh;
+  font-size: 5rem;
   text-decoration: underline;
 }
 .container,
@@ -7,8 +7,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5.9vh;
-  margin-top: 5.9vh;
+  margin: 5em auto;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -21,7 +20,7 @@ input[type=number]::-webkit-outer-spin-button {
 #no,
 #no1 {
   border: none;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid aqua;
   /* width:fit-content; */
   max-width: 5.9vw;
   margin-right: 1.46vw;
@@ -32,14 +31,14 @@ input[type=number]::-webkit-outer-spin-button {
 
 * {
   background: black;
-  color: purple;
+  color: skish-blue;
   font-size: 47px;
 }
 button {
   margin-right: 2.2vw;
 }
 .btn p {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid blue;
 }
 
 /* Button */
